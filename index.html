@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mixitup project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="controls">
+        <button type="button" class="control" data-filter="all">All</button>
+        <button type="button" class="control" data-filter=".headphone">Headphone</button>
+        <button type="button" class="control" data-filter=".laptop">Laptop</button>
+        <button type="button" class="control" data-filter=".computer">Computer</button>
+        <button type="button" class="control" data-filter=".mobile">Mobile</button>
+        <button type="button" class="control" data-filter=".tablet">Tablet</button>
+      </div>
+
+      <div class="image-group" id="img">
+        <a href="https://static-01.daraz.com.bd/p/70b21e4bfd6e11ceb72e4f9182252eed.jpg">
+          <img class="mix headphone" src="image/hp1.jpg" alt="" width="250px"
+        /></a>
+        <img class="mix laptop" src="image/laptop1.jpg" alt="" width="250px" />
+        <img class="mix computer" src="image/pc1.jpg" alt="" width="250px" />
+        <img class="mix mobile" src="image/phone1.jpg" alt="" width="250px" />
+        <img class="mix tablet" src="image/tb1.jpg" alt="" width="250px" />
+        <img class="mix headphone" src="image/hp2.jpg" alt="" width="250px" />
+        <img class="mix laptop" src="image/laptop2.jpg" alt="" width="250px" />
+        <img class="mix computer" src="image/pc2.jpg" alt="" width="250px" />
+        <img class="mix mobile" src="image/phone2.jpg" alt="" width="250px" />
+        <img class="mix tablet" src="image/tb2.jpg" alt="" width="250px" />
+        <img class="mix headphone" src="image/hp3.jpg" alt="" width="250px" />
+        <img class="mix laptop" src="image/laptop3.jpg" alt="" width="250px" />
+        <img class="mix computer" src="image/pc3.jpg" alt="" width="250px" />
+        <img class="mix mobile" src="image/phone3.jpg" alt="" width="250px" />
+        <img class="mix tablet" src="image/tb3.jpg" alt="" width="250px" />
+        <img class="mix headphone" src="image/hp4.jpg" alt="" width="250px" />
+        <img class="mix laptop" src="image/laptop4.jpg" alt="" width="250px" />
+        <img class="mix computer" src="image/pc4.jpg" alt="" width="250px" />
+        <img class="mix mobile" src="image/phone4.jpg" alt="" width="250px" />
+        <img class="mix tablet" src="image/tb4.jpg" alt="" width="250px" />
+        <img class="mix headphone" src="image/hp5.jpg" alt="" width="250px" />
+        <img class="mix laptop" src="image/laptop5.jpg" alt="" width="250px" />
+        <img class="mix computer" src="image/pc5.jpg" alt="" width="250px" />
+        <img class="mix mobile" src="image/phone5.jpg" alt="" width="250px" />
+        <img class="mix tablet" src="image/tb5.jpg" alt="" width="250px" />
+      </div>
+    </div>
+
+    <script src="script/mixitup.min.js"></script>
+
+    <script>
+      var rasel = document.getElementById("img");
+      var mixer = mixitup(rasel);
+    </script>
+  </body>
+</html>
